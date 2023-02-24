@@ -1,0 +1,306 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Mediocre Mines", "GrapeTheme")
+
+--MAIN
+local Main = Window:NewTab("Visual")
+local MainSection = Main:NewSection("Ores")
+
+
+
+MainSection:NewToggle("Aluminium", "Aluminium esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Aluminum" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Aluminum" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+MainSection:NewToggle("Amethyst", "Amethyst esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Amethyst" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Amethyst" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+MainSection:NewToggle("Coal", "Coal esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Coal" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Coal" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+MainSection:NewToggle("Copper", "Copper esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Copper" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Copper" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+
+MainSection:NewToggle("Diamond", "Diamond esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Diamond" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Diamond" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+
+MainSection:NewToggle("Emerald", "Emerald esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Emerald" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Emerald" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+
+MainSection:NewToggle("Gold", "Gold esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Gold" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Gold" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+
+MainSection:NewToggle("Iron", "Iron esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Iron" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Iron" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+
+MainSection:NewToggle("Opal", "Opal esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Opal" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Opal" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+
+MainSection:NewToggle("Peridot", "Peridot esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Peridot" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Peridot" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+
+MainSection:NewToggle("Ruby", "Ruby esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Ruby" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Ruby" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+MainSection:NewToggle("Sapphire", "Sapphire esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Sapphire" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Sapphire" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+MainSection:NewToggle("Silver", "Silver esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Silver" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Silver" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+MainSection:NewToggle("Sulfur", "Sulfur esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Sulfur" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Sulfur" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+
+
+MainSection:NewToggle("Thallium", "Thallium esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Thallium" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Thallium" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+MainSection:NewToggle("Topaz", "Topaz esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Topaz" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Topaz" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+MainSection:NewToggle("Zinc", "Zinc esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Zinc" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Zinc" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
