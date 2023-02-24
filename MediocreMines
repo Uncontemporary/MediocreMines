@@ -147,6 +147,22 @@ MainSection:NewToggle("Iron", "Iron esp", function(state)
     end
 end)
 
+MainSection:NewToggle("Meteorite", "Meteorite esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Meteorite" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Meteorite" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
 
 MainSection:NewToggle("Opal", "Opal esp", function(state)
     if state then
@@ -165,6 +181,22 @@ MainSection:NewToggle("Opal", "Opal esp", function(state)
     end
 end)
 
+MainSection:NewToggle("Panolethrium", "Panolethrium esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Panolethrium" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Panolethrium" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
 
 MainSection:NewToggle("Peridot", "Peridot esp", function(state)
     if state then
@@ -246,6 +278,23 @@ MainSection:NewToggle("Sulfur", "Sulfur esp", function(state)
     else
         for i, v in pairs(workspace.Mine:GetChildren()) do 
             if v.Name == "Sulfur" then
+                v.Highlight:Destroy()
+            end
+        end
+    end
+end)
+
+MainSection:NewToggle("Sunstone", "Sunstone esp", function(state)
+    if state then
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Sunstone" then
+                local a = Instance.new("Highlight")
+                a.Parent = v
+            end
+        end
+    else
+        for i, v in pairs(workspace.Mine:GetChildren()) do 
+            if v.Name == "Sunstone" then
                 v.Highlight:Destroy()
             end
         end
